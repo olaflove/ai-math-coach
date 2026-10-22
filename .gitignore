@@ -16,3 +16,14 @@ chroma_db/
 db.sqlite3
 
 media/
+# Public portfolio copy: local secrets, databases and generated caches
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+**/.vite/
+**/.idea/
+**/.claude/
